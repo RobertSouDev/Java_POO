@@ -13,4 +13,9 @@ public class Funcionario {
     protected float bonusExtra(int h, int f){
         return(h*1.5f)+(f*2f);
     }
+
+    protected String trabalha(){
+        String texto =  "trabalho feito";
+        return texto;
+    }
 }
